@@ -52,13 +52,7 @@ export default function AboutmePage() {
           <br />
           <p>--------------------------------------------------------------</p>
           <br />
-          <p>Links</p>
-          <br />
-          <a className="text-blue-500" href="https://www.chess.com/" target="_blank">Chess.com</a>
-
-          <br />
-
-          <Link className="text-blue-500" href="https://www.youtube.com"> YouTube.</Link>
+        
       
       
         </div>
