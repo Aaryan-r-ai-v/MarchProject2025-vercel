@@ -28,7 +28,7 @@ export default function AboutmePage() {
             Press 4 Fact
                </Button>
             <p>{fact}</p>        
-          <div>
+          
               <div className="flex flex-wrap text-2xl m-2 justify center">
                {/*           <img src="hoco.jpg" alt="Me at hoco" width="500" height="600"></img> */}
                   <p> This is me at hoco at bellvue square</p>
@@ -51,7 +51,7 @@ export default function AboutmePage() {
               <p>--------------------------------------------------------------</p>
               <br />      
             </div>
-          </div>
+          
     </div>
   );
 }
