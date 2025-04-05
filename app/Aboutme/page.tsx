@@ -32,14 +32,14 @@ export default function AboutmePage() {
         </Button>
         <p>{fact}</p>
       <div>
-      <div className="flex flex-wrap text-2xl m-2 justify center">
+        <div className="flex flex-wrap text-2xl m-2 justify center">
 {/*           <img src="hoco.jpg" alt="Me at hoco" width="500" height="600"></img> */}
           <p> This is me at hoco at bellvue square</p>
           <Button as={link} href="https://bellevuecollection.com/" className="bg-blue-700 text-white">Bellvue</Button>
           <br />
           <p>--------------------------------------------------------------</p>
           <br />
-           <img src="IMG_2145.jpg" alt="Me at tajmahal" width="500" height="600">
+{/*            <img src="IMG_2145.jpg" alt="Me at tajmahal" width="500" height="600"> */}
           <br />
           <p>I love sight seeing</p>
           <br />
