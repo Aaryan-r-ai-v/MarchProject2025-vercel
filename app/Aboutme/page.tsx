@@ -27,7 +27,8 @@ export default function AboutmePage() {
           <Button onPress={() => {setFact(facts[Math.floor(Math.random() * facts.length)])}} className="bg-blue-800 text-white">
             Press 4 Fact
                </Button>
-            <p>{fact}</p>        
+            <p>{fact}</p> 
+         <div>
           
               <div className="flex flex-wrap text-2xl m-2 justify center">
                {/*           <img src="hoco.jpg" alt="Me at hoco" width="500" height="600"></img> */}
@@ -50,6 +51,7 @@ export default function AboutmePage() {
               <p>--------------------------------------------------------------</p>
               <br />      
             </div>
+        </div>
           
     </div>
   );
