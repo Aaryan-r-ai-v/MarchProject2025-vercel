@@ -33,19 +33,19 @@ export default function AboutmePage() {
         <p>{fact}</p>
       <div>
       <div className="flex flex-wrap text-2xl m-2 justify center">
-          <img src="hoco.jpg" alt="Me at hoco" width="500" height="600"></img>
+{/*           <img src="hoco.jpg" alt="Me at hoco" width="500" height="600"></img> */}
           <p> This is me at hoco at bellvue square</p>
           <Button as={link} href="https://bellevuecollection.com/" className="bg-blue-700 text-white">Bellvue</Button>
           <br />
           <p>--------------------------------------------------------------</p>
           <br />
-          <img src="./image_2145.jpeg" alt="Me at tajmahal" width="500" height="600"></img>
+{/*           <img src="./image_2145.jpeg" alt="Me at tajmahal" width="500" height="600"></img> */}
           <br />
           <p>I love sight seeing</p>
           <br />
           <p>--------------------------------------------------------------</p>
           <br />
-          <img src="rogerfed.jpg" alt="Picture of roger federer" width="500" height="600"></img>
+{/*           <img src="rogerfed.jpg" alt="Picture of roger federer" width="500" height="600"></img> */}
           <br />
           <p>I love playing tennis and it is important and one of my favorite hobbies </p>
           <Button as={link} href="https://www.wimbledon.com/index.html" className="bg-blue-600 text-white">Wimbledon</Button>
