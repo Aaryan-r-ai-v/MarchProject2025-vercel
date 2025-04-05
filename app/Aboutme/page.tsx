@@ -38,6 +38,8 @@ export default function AboutmePage() {
           <Button as={link} href="https://bellevuecollection.com/" className="bg-blue-700 text-white">Bellvue</Button>
           <br />
           <p>--------------------------------------------------------------</p>
+            <img src="img_chania.jpg" alt="Flowers in Chania">
+
           <br />
 {/*            <img src="IMG_2145.jpg" alt="Me at tajmahal" width="500" height="600"> */}
           <br />
