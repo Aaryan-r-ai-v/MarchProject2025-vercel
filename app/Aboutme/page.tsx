@@ -37,7 +37,7 @@ export default function AboutmePage() {
                       <p>--------------------------------------------------------------
                       </p>
                   <br />
-                {/*            <img src="IMG_2145.jpg" alt="Me at tajmahal" width="500" height="600"> */}
+                 <img src="IMG_2145.jpg" alt="Me at tajmahal"> 
                  <br />
               <p>I love sight seeing</p>
               <br />
