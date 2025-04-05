@@ -36,13 +36,7 @@ export default function AboutmePage() {
                   <Button as={link} href="https://bellevuecollection.com/" className="bg-blue-700 text-white">Bellvue</Button>
                   <br />
                     <p>--------------------------------------------------------------
-                     <Image
-            aria-hidden
-            src="test.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
+                     
                   <br />                 
                  <br />
               <p>I love sight seeing</p>
