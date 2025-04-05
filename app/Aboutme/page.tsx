@@ -21,44 +21,37 @@ export default function AboutmePage() {
         "A standard tennis court is 78 feet long and 27 feet wide for singles.",
         "The term 'love' in tennis scoring means zero and likely comes from the French word 'l'oeuf' (egg)."]
     const [fact, setFact] = useState("");
-    return (
-    <div>
-      <h1 className={title()}>About me</h1>
-      
-        <Button onPress={() => {setFact(facts[Math.floor(Math.random() * facts.length)]);}} className="bg-blue-800 text-white">
-
-        Press 4 Fact
-
-        </Button>
-        <p>{fact}</p>
-      <div>
-        <div className="flex flex-wrap text-2xl m-2 justify center">
-{/*           <img src="hoco.jpg" alt="Me at hoco" width="500" height="600"></img> */}
-          <p> This is me at hoco at bellvue square</p>
-          <Button as={link} href="https://bellevuecollection.com/" className="bg-blue-700 text-white">Bellvue</Button>
-          <br />
-          <p>--------------------------------------------------------------</p>
-            <img src="img_chania.jpg" alt="Flowers in Chania">
-
-          <br />
-{/*            <img src="IMG_2145.jpg" alt="Me at tajmahal" width="500" height="600"> */}
-          <br />
-          <p>I love sight seeing</p>
-          <br />
-          <p>--------------------------------------------------------------</p>
-          <br />
-{/*           <img src="rogerfed.jpg" alt="Picture of roger federer" width="500" height="600"></img> */}
-          <br />
-          <p>I love playing tennis and it is important and one of my favorite hobbies </p>
-          <Button as={link} href="https://www.wimbledon.com/index.html" className="bg-blue-600 text-white">Wimbledon</Button>
-          <br />
-          <p>--------------------------------------------------------------</p>
-          <br />
-        
-      
-      
-        </div>
-      </div>
+    return (        
+        <div>
+          <h1 className={title()}>About me</h1>
+          <Button onPress={() => {setFact(facts[Math.floor(Math.random() * facts.length)]);}} className="bg-blue-800 text-white">
+            Press 4 Fact
+               </Button>
+            <p>{fact}</p>        
+          <div>
+              <div className="flex flex-wrap text-2xl m-2 justify center">
+               {/*           <img src="hoco.jpg" alt="Me at hoco" width="500" height="600"></img> */}
+                  <p> This is me at hoco at bellvue square</p>
+                  <Button as={link} href="https://bellevuecollection.com/" className="bg-blue-700 text-white">Bellvue</Button>
+                  <br />
+                      <p>--------------------------------------------------------------
+                      </p>
+                  <br />
+                {/*            <img src="IMG_2145.jpg" alt="Me at tajmahal" width="500" height="600"> */}
+                 <br />
+              <p>I love sight seeing</p>
+              <br />
+              <p>--------------------------------------------------------------</p>
+              <br />
+               {/*           <img src="rogerfed.jpg" alt="Picture of roger federer" width="500" height="600"></img> */}
+              <br />
+              <p>I love playing tennis and it is important and one of my favorite hobbies </p>
+              <Button as={link} href="https://www.wimbledon.com/index.html" className="bg-blue-600 text-white">Wimbledon</Button>
+              <br />
+              <p>--------------------------------------------------------------</p>
+              <br />      
+            </div>
+          </div>
     </div>
   );
 }
