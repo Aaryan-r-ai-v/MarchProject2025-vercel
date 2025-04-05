@@ -35,9 +35,9 @@ export default function AboutmePage() {
                   <Button as={link} href="https://bellevuecollection.com/" className="bg-blue-700 text-white">Bellvue</Button>
                   <br />
                       <p>--------------------------------------------------------------
+                          <img src="IMG_2145.jpg" alt="Me at tajmahal"> 
                       </p>
-                  <br />
-                 <img src="IMG_2145.jpg" alt="Me at tajmahal"> 
+                  <br />                 
                  <br />
               <p>I love sight seeing</p>
               <br />
