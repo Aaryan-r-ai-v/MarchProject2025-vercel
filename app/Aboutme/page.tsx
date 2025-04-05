@@ -28,7 +28,7 @@ export default function AboutmePage() {
             Press 4 Fact
                </Button>
             <p>{fact}</p> 
-         <div>
+
           
               <div className="flex flex-wrap text-2xl m-2 justify center">
                {/*           <img src="hoco.jpg" alt="Me at hoco" width="500" height="600"></img> */}
@@ -36,7 +36,7 @@ export default function AboutmePage() {
                   <Button as={link} href="https://bellevuecollection.com/" className="bg-blue-700 text-white">Bellvue</Button>
                   <br />
                     <p>--------------------------------------------------------------
-                    <img src="https://imgs.search.brave.com/4YBsJ_lt5jsVSzn8GK2jBYGmvkVk3zi3eKS6V2X0UPE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNjM2/MTQzNDU2L3Bob3Rv/L3Rhai1tYWhhbC5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/Q0FYUzJ5Tk1UX1hX/OHFOQkdlT3BjZXcy/SGpHaG9hLTRGU0gz/dlJVMzBzMD0" alt="Me at tajmahal">
+                    <img className = "h-auto max-w-full"src="https://imgs.search.brave.com/Dc5ZHxcKwEyLNhxJW_FX893dO9jOrM5Np0beMSETNKI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU5/MzcxNzkxL3Bob3Rv/L3Rhai1tYWhhbC1p/bmRpYS5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9TTVqNVdP/Ti1zYjVJYmVGeEU4/d0kzQ1JoRjFsWU8y/UWVGd0diSU1ZZzZm/Yz0" alt="Me at tajmahal">
                   <br />                 
                  <br />
               <p>I love sight seeing</p>
@@ -50,7 +50,7 @@ export default function AboutmePage() {
               <br />
               <p>--------------------------------------------------------------</p>
               <br />      
-            </div>
+
         </div>
           
     </div>
