@@ -34,9 +34,8 @@ export default function AboutmePage() {
                   <p> This is me at hoco at bellvue square</p>
                   <Button as={link} href="https://bellevuecollection.com/" className="bg-blue-700 text-white">Bellvue</Button>
                   <br />
-                      <p>--------------------------------------------------------------
-{/*                           <img src="https://imgs.search.brave.com/4YBsJ_lt5jsVSzn8GK2jBYGmvkVk3zi3eKS6V2X0UPE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNjM2/MTQzNDU2L3Bob3Rv/L3Rhai1tYWhhbC5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/Q0FYUzJ5Tk1UX1hX/OHFOQkdlT3BjZXcy/SGpHaG9hLTRGU0gz/dlJVMzBzMD0" alt="Me at tajmahal">  */}
-                      </p>
+                    <p>--------------------------------------------------------------
+                    <img src="https://imgs.search.brave.com/4YBsJ_lt5jsVSzn8GK2jBYGmvkVk3zi3eKS6V2X0UPE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNjM2/MTQzNDU2L3Bob3Rv/L3Rhai1tYWhhbC5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/Q0FYUzJ5Tk1UX1hX/OHFOQkdlT3BjZXcy/SGpHaG9hLTRGU0gz/dlJVMzBzMD0" alt="Me at tajmahal">
                   <br />                 
                  <br />
               <p>I love sight seeing</p>
