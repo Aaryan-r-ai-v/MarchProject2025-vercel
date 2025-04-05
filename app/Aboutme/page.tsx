@@ -35,8 +35,14 @@ export default function AboutmePage() {
                   <p> This is me at hoco at bellvue square</p>
                   <Button as={link} href="https://bellevuecollection.com/" className="bg-blue-700 text-white">Bellvue</Button>
                   <br />
-                    <p>--------------------------------------------------------------
-                     
+                    <p>--------------------------------------------------------------</p>
+                     <Image
+            aria-hidden
+            src="test.svg"
+            alt="Window icon"
+            width={16}
+            height={16}
+          />
                   <br />                 
                  <br />
               <p>I love sight seeing</p>
