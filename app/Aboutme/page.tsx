@@ -36,7 +36,13 @@ export default function AboutmePage() {
                   <Button as={link} href="https://bellevuecollection.com/" className="bg-blue-700 text-white">Bellvue</Button>
                   <br />
                     <p>--------------------------------------------------------------
-                    <img className = "h-auto max-w-full"src="https://imgs.search.brave.com/Dc5ZHxcKwEyLNhxJW_FX893dO9jOrM5Np0beMSETNKI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU5/MzcxNzkxL3Bob3Rv/L3Rhai1tYWhhbC1p/bmRpYS5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9TTVqNVdP/Ti1zYjVJYmVGeEU4/d0kzQ1JoRjFsWU8y/UWVGd0diSU1ZZzZm/Yz0" alt="Me at tajmahal">
+                     <Image
+            aria-hidden
+            src="test.svg"
+            alt="Window icon"
+            width={16}
+            height={16}
+          />
                   <br />                 
                  <br />
               <p>I love sight seeing</p>
