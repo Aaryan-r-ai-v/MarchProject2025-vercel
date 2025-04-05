@@ -24,7 +24,7 @@ export default function AboutmePage() {
     return (                
      <div>
           <h1 className={title()}>About me</h1>
-          <Button onPress={() => {setFact(facts[Math.floor(Math.random() * facts.length)]);}} className="bg-blue-800 text-white">
+          <Button onPress={() => {setFact(facts[Math.floor(Math.random() * facts.length)])}} className="bg-blue-800 text-white">
             Press 4 Fact
                </Button>
             <p>{fact}</p>        
