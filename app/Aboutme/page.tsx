@@ -58,9 +58,8 @@ export default function AboutmePage() {
             rel="noopener noreferrer"
           >
             <Image
-              className="dark:invert"
               src="/test.jpg"
-              alt="Vercel logomark"
+              alt="test"
               width={200}
               height={200}
             />
