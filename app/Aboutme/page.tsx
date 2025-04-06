@@ -62,10 +62,10 @@ export default function AboutmePage() {
               className="dark:invert"
               src="/test.jpg"
               alt="Vercel logomark"
-              width={20}
-              height={20}
+              width={200}
+              height={200}
             />
-            Deploy now
+            test test test 
           </a>
         </div>
                   
