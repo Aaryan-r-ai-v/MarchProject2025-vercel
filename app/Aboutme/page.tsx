@@ -30,42 +30,82 @@ export default function AboutmePage() {
             <p>{fact}</p> 
 
           
-              <div className="flex flex-wrap text-2xl m-2 justify center">
+              <div className="text-2xl m-2 justify center">
                {/*           <img src="hoco.jpg" alt="Me at hoco" width="500" height="600"></img> */}
-                  <p> This is me at hoco at bellvue square</p>
+                  
+                  <br/>
+                  <p>   This is me before hoco at bellvue square </p>                                                     
+                  <Image
+              src="/IMG_5939.jpg"
+              alt="test"
+              width={200}
+              height={200}
+              
+            />
+            
                   <Button as={link} href="https://bellevuecollection.com/" className="bg-blue-700 text-white">Bellvue</Button>
                   <br />
-                    <p>--------------------------------------------------------------</p>
+                    
+                  <p>-------------------------</p>
+                  <br /> 
+                  <Image
+              src="/IMG_2145.jpg"
+              alt="taj mahal"
+              width={200}
+              height={200}
+            />
+            
 
-                  <br />                 
                  <br />
               <p>I love sight seeing</p>
               <br />
-              <p>--------------------------------------------------------------</p>
+              <Image
+              src="/thumbnail_IMG_4609.jpg"
+              alt="test"
+              width={200}
+              height={200}
+            />
+            <p>-------------------------</p>
               <br />
-               {/*           <img src="rogerfed.jpg" alt="Picture of roger federer" width="500" height="600"></img> */}
+               
               <br />
+              
+            <br />
               <p>I love playing tennis and it is important and one of my favorite hobbies </p>
+              <br />
               <Button as={link} href="https://www.wimbledon.com/index.html" className="bg-blue-600 text-white">Wimbledon</Button>
               <br />
-              <p>--------------------------------------------------------------</p>
-              <br />      
+              
+    
 
           <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
+            
           >
+            <br />
             <Image
-              src="/test.jpg"
+              src="/roger.jpg"
               alt="test"
-              width={250}
-              height={250}
+              width={200}
+              height={200}
             />
-            test test test 
+            <p>-------------------------</p>
+            <br />
+            
           </a>
-                  
+          <p>LINKS:</p>
+          <p>-------------------------</p>
+          <a className="text-blue-500" href="https://www.chess.com/" target="_blank">Chess.com</a>
+
+            <br />
+
+
+
+            <br />
+
+            <Link className="text-blue-400" href="https://www.youtube.com">YouTube </Link>       
         </div>
           
     </div>
