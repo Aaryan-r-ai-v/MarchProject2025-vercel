@@ -60,8 +60,8 @@ export default function AboutmePage() {
             <Image
               src="/test.jpg"
               alt="test"
-              width={200}
-              height={200}
+              width={250}
+              height={250}
             />
             test test test 
           </a>
