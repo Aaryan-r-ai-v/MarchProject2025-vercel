@@ -78,12 +78,7 @@ export default function AboutmePage() {
               
     
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            
-          >
+         
             <br />
             <Image
               src="/roger.jpg"
@@ -94,7 +89,7 @@ export default function AboutmePage() {
             <p>-------------------------</p>
             <br />
             
-          </a>
+          
           <p>LINKS:</p>
           <p>-------------------------</p>
           <a className="text-blue-500" href="https://www.chess.com/" target="_blank">Chess.com</a>
